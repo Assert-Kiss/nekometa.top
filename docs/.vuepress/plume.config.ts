@@ -14,7 +14,7 @@ const normalizeBase = (value: string) => {
 }
 
 const siteBase = normalizeBase(process.env.VUEPRESS_BASE || '/')
-const siteHostname = (process.env.VUEPRESS_HOSTNAME || 'https://nekometa.top').replace(/\/+$/, '')
+const siteHostname = (process.env.VUEPRESS_HOSTNAME || 'https://www.nekometa.top').replace(/\/+$/, '')
 const siteRepoUrl = (process.env.VUEPRESS_REPO_URL || '').trim()
 const siteDocsBranch = (process.env.VUEPRESS_DOCS_BRANCH || process.env.GITHUB_REF_NAME || 'master').trim()
 const withBase = (assetPath: string) => `${siteBase}${assetPath.replace(/^\/+/, '')}`
@@ -30,7 +30,7 @@ export default defineThemeConfig({
   cache: 'filesystem',
   search: { provider: 'local' },
   footer: {
-    message: '© 2026 NekoMeta · nekometa.top',
+    message: '© 2026 NekoMeta · www.nekometa.top',
   },
   profile: {
     avatar: withBase('images/logo.svg'),

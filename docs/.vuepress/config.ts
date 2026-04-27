@@ -16,7 +16,7 @@ const normalizeBase = (value: string) => {
   return base.replace(/\/{2,}/g, '/')
 }
 
-const defaultHostname = 'https://nekometa.top'
+const defaultHostname = 'https://www.nekometa.top'
 const siteHostname = (process.env.VUEPRESS_HOSTNAME || defaultHostname).replace(/\/+$/, '')
 const withBase = (assetPath: string) => `${siteBase}${assetPath.replace(/^\/+/, '')}`
 const siteBase = normalizeBase(process.env.VUEPRESS_BASE || '/')
