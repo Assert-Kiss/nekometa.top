@@ -1,0 +1,1 @@
+var e={"/":`NekoMeta`,"/airport/":`机场推荐`,"/friends/":`友链`,"/stats/":`数据统计`,"/tools/":`翻墙工具`,"/blog/":`博客`,"/blog/tags/":`标签`,"/blog/archives/":`归档`,"/blog/categories/":`分类`};export{e as t};

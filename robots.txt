@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.nekometa.top/sitemap.xml
+
+User-agent:*
+Disallow:

@@ -1,0 +1,38 @@
+---
+url: /airport/index.md
+description: NekoMeta 的机场推荐入口页，后续会持续整理稳定机场、性价比机场与节点订阅相关内容。
+---
+# 机场推荐
+::: tip 页面定位
+这里会作为 NekoMeta 的机场推荐入口，后续可以继续补充稳定机场、便宜机场、适合新手的机场和长期订阅推荐。
+:::
+
+---
+
+---
+url: /friends/index.md
+description: 欢迎与 NekoMeta 同类站点交换友链，技术博客、机场测评、科学上网教程类站点都可以联系。
+---
+# 友链
+::: tip 说明
+当前先保留友链结构，不预填站点数据。后续只需要往 `list` 中追加同类站点即可。
+:::
+
+---
+
+---
+url: /stats/index.md
+description: 查看 NekoMeta 的访问统计、热门内容和访客来源。
+---
+# 数据统计
+
+---
+
+---
+url: /tools/index.md
+description: NekoMeta 的翻墙工具入口页，后续会整理 Clash、Shadowrocket、Clash Verge Rev 和各平台客户端教程。
+---
+# 翻墙工具
+::: tip 页面定位
+这里会收纳 Windows、macOS、Android、iPhone/iPad 等不同平台的翻墙工具与配置教程。
+:::
